@@ -3,7 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Danielle and Timothy's Wedding</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Global font styles */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Calibri, sans-serif;
+            background-color: #ffe5e5; /* Soft pink background */
+        }
+        
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        header h1 {
+            font-family: "Calibri Light", sans-serif; /* Calibri Light for headings */
+        }
+        
+        /* Navigation menu styles */
+        nav ul {
+            list-style: none;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        /* Hero section styles */
+        .hero {
+            text-align: center;
+            padding: 40px;
+            background-image: url('your-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        
+        /* Invitation section styles */
+        .invitation {
+            text-align: center;
+            padding: 40px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -11,7 +67,6 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="details.html">Details</a></li>
-                <li><a href="photos.html">Photos</a></li>
                 <li><a href="rsvp.html">RSVP</a></li>
             </ul>
         </nav>
@@ -19,7 +74,7 @@
 
     <div class="hero">
         <h1>Danielle & Timothy</h1>
-        <p>January 4, 2025</p>
+        <p>January 4, 2025 - 4:00 PM</p> <!-- Updated wedding time -->
         <p>Avalon Castle, Cockatoo, Melbourne, Australia</p>
     </div>
 
@@ -30,57 +85,3 @@
 </body>
 </html>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Wedding Details</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="details.html">Details</a></li>
-                <li><a href="photos.html">Photos</a></li>
-                <li><a href="rsvp.html">RSVP</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="details">
-        <h1>Wedding Details</h1>
-        <p>Date: January 4, 2025</p>
-        <p>Location: Avalon Castle, Cockatoo, Melbourne, Australia</p>
-        <p>Time: 3:00 PM</p>
-    </div>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>RSVP</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="details.html">Details</a></li>
-                <li><a href="photos.html">Photos</a></li>
-                <li><a href="rsvp.html">RSVP</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="rsvp">
-        <h1>RSVP</h1>
-        <!-- You can add a Google Form link for song requests here -->
-        <!-- Example: <a href="https://forms.google.com/your-form-link">Request a Song</a> -->
-    </div>
-</body>
-</html>
