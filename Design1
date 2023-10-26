@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>John & Jane's Wedding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f3f3f3;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>John & Jane's Wedding</h1>
+    </div>
+
+    <div class="container">
+        <h2>Welcome to our wedding website!</h2>
+        <p>We are excited to celebrate this special day with you. Here you can find all the information you need to join us in our celebration.</p>
+
+        <h3>Event Details</h3>
+        <p><strong>Date:</strong> June 15, 2023</p>
+        <p><strong>Time:</strong> 3:00 PM</p>
+        <p><strong>Location:</strong> Beautiful Gardens, 123 Love Lane, Townsville</p>
+
+        <h3>RSVP</h3>
+        <p>Please RSVP by May 1, 2023, so we can plan accordingly. We look forward to your presence on our special day.</p>
+
+        <h3>Song Request</h3>
+        <p>Is there a special song you'd like to hear on our wedding night? We'd love to know your song request. Please enter the song title and artist below:</p>
+        <form action="song_request.php" method="post">
+            <label for="song_title">Song Title:</label>
+            <input type="text" id="song_title" name="song_title" required>
+            <br>
+            <label for="artist">Artist:</label>
+            <input type="text" id="artist" name="artist" required>
+            <br>
+            <button type="submit">Submit Request</button>
+        </form>
+
+        <h3>Registry</h3>
+        <p>For those who wish to give a gift, we have registered at your favorite store. You can find our registry <a href="#">here</a>.</p>
+
+        <h3>Contact Us</h3>
+        <p>If you have any questions or need more information, please feel free to contact us at <a href="mailto:johnandjane@example.com">johnandjane@example.com</a>.</p>
+    </div>
+</body>
+</html>
