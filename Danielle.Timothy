@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Danielle and Timothy's Wedding</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="rsvp.html">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Danielle & Timothy</h1>
+        <p>January 4, 2025</p>
+        <p>Avalon Castle, Cockatoo, Melbourne, Australia</p>
+    </div>
+
+    <section class="invitation">
+        <h2>You're Invited!</h2>
+        <p>We are excited to invite you to our wedding. Join us on this special day as we celebrate our love and commitment.</p>
+    </section>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wedding Details</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="rsvp.html">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="details">
+        <h1>Wedding Details</h1>
+        <p>Date: January 4, 2025</p>
+        <p>Location: Avalon Castle, Cockatoo, Melbourne, Australia</p>
+        <p>Time: 3:00 PM</p>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wedding Photos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="rsvp.html">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="photos">
+        <h1>Wedding Photos</h1>
+        <!-- Add your photo gallery or images here -->
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>RSVP</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="details.html">Details</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="rsvp.html">RSVP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="rsvp">
+        <h1>RSVP</h1>
+        <!-- You can add a Google Form link for song requests here -->
+        <!-- Example: <a href="https://forms.google.com/your-form-link">Request a Song</a> -->
+    </div>
+</body>
+</html>
